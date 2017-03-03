@@ -18,7 +18,7 @@ The database will be updated in monthly basis for the greater accuracy. Free sam
 The complete database is available at http://www.ip2location.com under premium subscription. Meanwhile, free creative-common database is also available at http://lite.ip2location.com upon sign-up.
 
 
-INSTALLATION
+## INSTALLATION
 
 To install this module type the following:
 
@@ -27,12 +27,16 @@ To install this module type the following:
    make test
    make install
 
-DEPENDENCIES
+## DEPENDENCIES (IP2LOCATION BIN DATA FILE)
 
-The complete database is available at http://www.ip2location.com under subscription package.
+This library requires IP2Location BIN data file to function. You may download the BIN data file at
 
-COPYRIGHT AND LICENCE
+* IP2Location LITE BIN Data (Free): http://lite.ip2location.com
+* IP2Location Commercial BIN Data (Comprehensive): http://www.ip2location.com
 
-Copyright (C) 2017 by IP2Location.com, support@ip2location.com
 
-This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself, either Perl version 5.8.6 or, at your option, any later version of Perl 5 you may have available.
+## COPYRIGHT AND LICENCE
+
+Copyright (C) 2017 by IP2Location.com
+
+This library is licensed under LGPLv3; you can redistribute it and/or modify it under the same terms as Perl itself, either Perl version 5.8.6 or, at your option, any later version of Perl 5 you may have available.
