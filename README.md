@@ -1,7 +1,7 @@
 Geo::IP2Location
 ================
 
-This Perl module provides fast lookup of country, region, city, latitude, longitude, ZIP code, time zone, ISP, domain name, connection type, IDD code, area code, weather station code and station, MCC, MNC, mobile carrier brand, elevation and usage type from IP address using IP2Location database. This module uses a file based BIN database available at https://www.ip2location.com/database/ip2location upon subscription. You can visit https://www.ip2location.com/development-libraries to download BIN sample files. This database consists of IP address as keys and other information as values. It supports all IP addresses in IPv4 and IPv6.
+This Perl module provides fast lookup of country, region, city, latitude, longitude, ZIP code, time zone, ISP, domain name, connection type, IDD code, area code, weather station code and station, MCC, MNC, mobile carrier brand, elevation, usage type, IP address type and IAB advertising category from IP address using IP2Location database. This module uses a file based BIN database available at https://www.ip2location.com/database/ip2location upon subscription. You can visit https://www.ip2location.com/development-libraries to download BIN sample files. This database consists of IP address as keys and other information as values. It supports all IP addresses in IPv4 and IPv6.
 
 This module can be used in many types of project such as:
 
@@ -17,7 +17,6 @@ The database will be updated in monthly basis for the greater accuracy. Free sam
 
 The complete database is available at https://www.ip2location.com under paid subscription. Meanwhile, free creative-common database is also available at http://lite.ip2location.com upon sign-up.
 
-
 ## INSTALLATION
 
 To install this module type the following:
@@ -27,13 +26,9 @@ To install this module type the following:
    make test
    make install
 
-## DEPENDENCIES (IP2LOCATION BIN DATA FILE)
+## DEPENDENCIES
 
-This library requires IP2Location BIN data file to function. You may download the BIN data file at
-
-* IP2Location LITE BIN Data (Free): https://lite.ip2location.com
-* IP2Location Commercial BIN Data (Comprehensive): https://www.ip2location.com
-
+The complete database is available at https://www.ip2location.com under subscription package.
 
 ## IPv4 BIN vs IPv6 BIN
 
@@ -41,9 +36,8 @@ Use the IPv4 BIN file if you just need to query IPv4 addresses.
 
 Use the IPv6 BIN file if you need to query BOTH IPv4 and IPv6 addresses.
 
-
 ## COPYRIGHT AND LICENCE
 
-Copyright (C) 2019 by IP2Location.com
+Copyright (C) 2021 by IP2Location.com, support@ip2location.com
 
-This library is licensed under LGPLv3; you can redistribute it and/or modify it under the same terms as Perl itself, either Perl version 5.8.6 or, at your option, any later version of Perl 5 you may have available.
+This library is released under the MIT license. See the LICENSE file for full license information.

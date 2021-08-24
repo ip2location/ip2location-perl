@@ -1,5 +1,28 @@
 Revision history for Perl extension Geo::IP2Location.
 
+8.51  Tue June 02 16:00:00 2021
+      Twenty-first release under the Geo::IP2Location
+      Bug fix to include bigint in library
+      Bug fix to validate IPv4 address
+
+8.50  Mon April 12 16:00:00 2021
+      Twentieth release under the Geo::IP2Location
+      Added new function "get_addresstype"
+      Added new function "get_category"
+      Added new function "Geo::IP2Location::get_last_error_message()"
+
+8.40  Fri July 24 16:00:00 2020
+      Nineteenth release under the Geo::IP2Location
+      Added close() function to close file handle
+
+8.30  Fri July 17 16:00:00 2020
+      Eighteenth release under the Geo::IP2Location
+      Fixed MIT license in description
+
+8.20  Tue Oct 08 12:00:00 2019
+      Seventeenth release under the Geo::IP2Location
+      Reduce file I/O to improve query performance
+
 8.10  Wed Jun 26 12:00:00 2019
       Sixteenth release under the Geo::IP2Location
       Added 6to4 addressing support
