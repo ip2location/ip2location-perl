@@ -1,0 +1,38 @@
+Geo::IP2Location
+================
+
+This Perl module provides fast lookup of country, region, city, latitude, longitude, ZIP code, time zone, ISP, domain name, connection type, IDD code, area code, weather station code and station, MCC, MNC, mobile carrier brand, elevation, usage type, IP address type, IAB advertising category, district, AS number and AS name from IP address using IP2Location database. This module uses a file based BIN database available at https://www.ip2location.com/database/ip2location upon subscription. You can visit https://www.ip2location.com/development-libraries to download BIN sample files. This database consists of IP address as keys and other information as values. It supports all IP addresses in IPv4 and IPv6.
+
+This module can be used in many types of project such as:
+
+ 1) select the geographically closest mirror
+ 2) analyze web server logs to determine the countries of visitors
+ 3) credit card fraud detection
+ 4) software export controls
+ 5) display native language and currency
+ 6) prevent password sharing and abuse of service
+ 7) geotargeting in advertisement
+
+The database will be updated in monthly basis for the greater accuracy. Free sample DB1 database is available at /samples directory or download it online from https://www.ip2location.com/development-libraries.
+
+The complete database is available at https://www.ip2location.com under paid subscription. Meanwhile, free creative-common database is also available at http://lite.ip2location.com upon sign-up.
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+The complete database is available at https://www.ip2location.com under subscription package.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2023 by IP2Location.com, support@ip2location.com
+
+This library is released under the MIT license. See the LICENSE file for full license information.
